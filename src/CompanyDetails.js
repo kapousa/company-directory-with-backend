@@ -14,7 +14,7 @@ import {
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
 
-const API_BASE_URL = 'http://127.0.0.1:8000';
+const API_BASE_URL = 'https://admin-backend-1sev.onrender.com';
 
 const CompanyDetails = ({ username, password, navigate }) => {
   const { companyId } = useParams();

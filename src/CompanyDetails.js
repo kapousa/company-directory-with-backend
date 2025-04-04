@@ -258,12 +258,6 @@ const CompanyDetails = ({ username, password, navigate }) => {
         newTabs.push({ label: 'Investors', content: renderInvestors() });
       }
 
-      {/*
-        if (company.transformation_plan) {
-        newTabs.push({ label: 'Assesment', content: renderTransformationPlan() });
-      }
-      */}
-
       if (company.dynamicSections && company.dynamicSections.length > 0) {
         company.dynamicSections.forEach((section) => {
           newTabs.push({ label: section.key, content: renderDynamicSection(section) });

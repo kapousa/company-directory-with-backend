@@ -33,7 +33,7 @@ const categories = [
   'Transportation',
   'Energy',
   'Agriculture',
-];
+]; 
 
 const sizes = ['Large', 'Medium', 'Small'];
 
